@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Antic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
 body{
-    color:#e3e5e6;
+    background: #e3e5e6;
 }
 .section1{
     width: 100%;
@@ -25,6 +24,7 @@ body{
 }
 .navbar li {
     margin-right: 15px;
+    font-family: 'Pragati Narrow', sans-serif;
 }
 .section2{
     max-width: 1370px;
@@ -33,18 +33,25 @@ body{
 }
 
 .section3{
-    max-width: 1370px;
+    max-width: 300px;
     width: 100%;
     margin:0 auto;
     background-color: white;
+    margin-top: 30px;
+    border: solid whitesmoke 1px;
 }
 .main-content{
     background-color: white;
 }
+.popular-teams{
+    padding:0 0 4px 20px;
+    border-bottom:solid 1px #e3e5e6;
+}
 .popular-teams a{
-    font-size: 20px;
+    font-size: 16px;
     color:black;
     text-decoration: none;
+    font-family: 'Pragati Narrow', sans-serif;
 }
 
 .team-icons{
@@ -55,4 +62,15 @@ body{
     transition: 0.5s;
     background-color: #081f2c;
     color: white;
+}
+.icon{
+    width: 30px;
+}
+.section4{
+    width: 100%;
+    color: #081f2c;
+    margin: 20px 0 10px 0;
+}
+.icons{
+    width: 30px;
 }
