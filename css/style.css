@@ -4,6 +4,7 @@ body{
     color:#e3e5e6;
 }
 .section1{
+    max-width: 1370px;
     width: 100%;
     margin: 0 auto;
     position: fixed;
