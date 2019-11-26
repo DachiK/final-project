@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Antic&display=swap');
+body{
+    color:#e3e5e6;
+}
 .section1{
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    background-color:black;
+    background-color:#081f2c;
 } 
-.foots{
-  background-image: url("images/foots.jpg");
-  background-color: #cccccc;
-  width: 100%;
-  height: 100%;
-  background-size: cover; 
-}
 .soccer{
     width: 40px;
     margin:0 0 0 30px;
@@ -21,6 +17,9 @@
     display: flex;
     justify-content: space-between;
     align-content: center; 
+}
+.navbar li {
+    margin-right: 15px;
 }
 .navbar ul :hover{
     opacity: 1.5;
