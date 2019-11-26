@@ -5,7 +5,6 @@ body{
 .section1{
     width: 100%;
     margin: 0 auto;
-    position: fixed;
     background-color:#081f2c;
 } 
 .soccer{
@@ -25,4 +24,23 @@ body{
     opacity: 1.5;
     transition: 0.3s;
     font-size: 17px;
+}
+.news{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    margin:0 0 15px 30px;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+    color: black;
 }
