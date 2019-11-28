@@ -55,6 +55,13 @@ body{
     margin: 10px 0 60px 0;
     color: white;
 }
-.col-6{
+.col-8{
     border: solid 1px white;
+    padding: 5px;
+    margin: 5px;
+}
+.col-3{
+    border: solid 1px white;
+    padding: 5px;
+    margin: 5px;
 }
