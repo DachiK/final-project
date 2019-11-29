@@ -39,10 +39,10 @@ body{
     width: 100%;
 }
 .card-title{
-    color: black;
+    color: white;
 }
 .card-text{
-    color: black;
+    color: white;
 }
 .view{
     width: 100%;
@@ -55,13 +55,6 @@ body{
     margin: 10px 0 60px 0;
     color: white;
 }
-.col-8{
-    border: solid 1px white;
-    padding: 5px;
-    margin: 5px;
-}
-.col-3{
-    border: solid 1px white;
-    padding: 5px;
-    margin: 5px;
+.card{
+    background-color:#0d2d3f;
 }
