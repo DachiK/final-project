@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 body{
     background-color:#e3e5e6;
 }
@@ -32,6 +33,13 @@ body{
     flex-wrap: wrap;
     margin-top: 100px;
 }
+.news1{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+    flex-wrap: wrap;
+    
+}
 .card{
     margin:0 30px 15px 30px;
 }
@@ -40,9 +48,12 @@ body{
 }
 .card-title{
     color: white;
+    font-family: 'Questrial', sans-serif;
+    
 }
 .card-text{
     color: white;
+    font-family: 'Questrial', sans-serif;
 }
 .view{
     width: 100%;
@@ -58,3 +69,38 @@ body{
 .card{
     background-color:#0d2d3f;
 }
+.video{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+}
+.view1{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+    background-color: #0d2d3f;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Pragati Narrow', sans-serif;
+    margin: 50px 30px 60px 30px;
+    color: white;
+}
+.videos{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+    background-color: #0d2d3f;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.debate{
+    padding: 5px;
+}
+.section4{
+    width: 120px;
+    margin: 30px 0 0 30px;
+}
+.icons{
+    width: 30px;
+}
+
