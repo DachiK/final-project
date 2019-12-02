@@ -101,16 +101,16 @@ body{
     width: 100%;
 }
 .name{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     padding: 5px;
+    font-family: 'Pragati Narrow', sans-serif;
     
 }
 .team-name{
     font-size: 16px;
     color: white;
     padding: 5px;
+    font-family: 'Pragati Narrow', sans-serif;
 }
-.stadiums :last-child{
-    flex-wrap: nowrap;
-}
+
