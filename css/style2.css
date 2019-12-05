@@ -73,16 +73,6 @@ body{
     color: #081f2c;
     margin: 20px 0 10px 30px;
 }
-.section4{
-    width: 120px;
-    margin: 30px 0 0 30px;
-    border: solid 1px white;
-    padding: 10px;
-}
-.icons{
-    width: 30px;
-    padding: 2px;
-}
 .stadiums{
     max-width: 1200px;
     width: 100%;
@@ -112,5 +102,15 @@ body{
     color: white;
     padding: 5px;
     font-family: 'Pragati Narrow', sans-serif;
+}
+.section4{
+    width: 150px;
+    margin: 30px 30px 15px 0px;
+    padding: 10px;
+    float: right;
+}
+.icons{
+    width: 40px;
+    padding: 2px;
 }
 
