@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+body{
+    background-color:#e3e5e6;
+}
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#0d2d3f;
+} 
+.soccer{
+    width: 40px;
+    margin:10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center; 
+}
+.navbar li {
+    margin-right: 15px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+.navbar ul :hover{
+    opacity: 1.5;
+    transition: 0.3s;
+    font-size: 17px;
+}
