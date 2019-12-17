@@ -106,3 +106,12 @@ body{
     width: 40px;
     padding: 2px;
 }
+@media screen and (max-width:320px) {
+    .view{
+        width: 250px;
+        margin-left: 35px;
+    }
+    .card{
+        margin-left:35px;
+    }
+}
