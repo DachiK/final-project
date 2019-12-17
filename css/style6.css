@@ -77,3 +77,18 @@ body{
     width: 40px;
     padding: 2px;
 }
+@media screen and (max-width:320px) {
+    .newstitle{
+        width: 100%;
+    }
+    .europe{
+        width: 320px;
+    }
+    .description{
+        width: 100%;
+    }
+    .text5{
+        width: 100%;
+    }
+
+}
