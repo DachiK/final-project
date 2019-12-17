@@ -77,3 +77,24 @@ body{
     width: 40px;
     padding: 2px;
 }
+@media screen and (max-width:320px) {
+    .newstitle{
+        width: 100%;
+        
+    }
+    .messi6{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+    }
+    .text5{
+        width: 100%;
+    }
+    .messi{
+        width: 100%;
+    }
+    .interview p{
+        width: 320px;
+    }
+}
