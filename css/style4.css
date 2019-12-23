@@ -40,11 +40,12 @@ body{
     max-width: 1370px;
     margin:0 auto;
     margin-top: 30px;
+    border: solid 1px #0d2d3f;
 }
 .navs ul{
     display: flex;
     width: 1370px;
-    margin-left: 80px;
+    
 }
 .navs a{
     text-decoration: none;
@@ -52,4 +53,24 @@ body{
     font-size: 20px;
     font-family: 'Pragati Narrow', sans-serif;
     color: #0d2d3f;
+}
+@media screen and (max-width:768px) {
+    .bbva{
+        width: 100%;
+    }
+    .navs{
+        width: 768px;
+    }
+    ul{
+        width: 768px;
+    }
+    .nav{
+        width: 768px;
+    }
+    .navs a{
+        padding: 10px;
+    }
+    .section1{
+        width:100%;
+    }
 }
