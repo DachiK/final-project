@@ -54,6 +54,11 @@ body{
     font-family: 'Pragati Narrow', sans-serif;
     color: #0d2d3f;
 }
+.back-icon{
+    width: 40px;
+    margin-left: 50px;
+}
+
 @media screen and (max-width:768px) {
     .bbva{
         width: 100%;
