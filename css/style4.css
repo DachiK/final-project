@@ -26,3 +26,30 @@ body{
     transition: 0.3s;
     font-size: 17px;
 }
+.laliga-page{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+}
+.bbva{
+    width: 1370px;
+    position: relative;
+}
+.navs{
+    width: 100%;
+    max-width: 1370px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.navs ul{
+    display: flex;
+    width: 1370px;
+    margin-left: 80px;
+}
+.navs a{
+    text-decoration: none;
+    padding: 70px;
+    font-size: 20px;
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #0d2d3f;
+}
