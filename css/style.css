@@ -96,16 +96,6 @@ body{
 .debate{
     padding: 5px;
 }
-.section4{
-    width: 150px;
-    margin: 30px 30px 15px 0px;
-    padding: 10px;
-    float: right;
-}
-.icons{
-    width: 40px;
-    padding: 2px;
-}
 @media screen and (max-width:768px) {
 .debate{
     width: 300px;

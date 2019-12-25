@@ -46,13 +46,19 @@ body{
     margin-left: 50px;
     
 }
+.navs ul :hover{
+   font-size: 20px;
+   opacity: 0.5;
+   transition: 0.3s;
+}
 .navs a{
     text-decoration: none;
-    padding-right: 70px;
-    font-size: 20px;
+    padding: 50px;
+    font-size: 17px;
     font-family: 'Pragati Narrow', sans-serif;
     color: #0d2d3f;
 }
+
 .ul a :first-child{
     padding-right: 70px;
 

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+body{
+    background-color:#e3e5e6;
+}
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#0d2d3f;
+} 
+.soccer{
+    width: 40px;
+    margin:10px;
+}
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center; 
+}
+.navbar li {
+    margin-right: 15px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+.navbar ul :hover{
+    opacity: 1.5;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.contact{
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+}
+.map{
+    width: 200px;
+    padding: 10px;
+}
+.map1{
+    width: 400px;
+    padding: 20px;
+}
+.map2{
+    width: 300px;
+}
+.navigationmap{
+    float: right;
+    
+}
+.united-kingdom{
+    border-bottom: 1px solid #0d2d3f;
+}
+.geo{
+    border-bottom: 1px solid #0d2d3f;
+}
+.spain{
+    border-bottom: 1px solid #0d2d3f;
+}
+@media screen and (max-width:768px){
+    .map{
+        width: 150px;
+        padding: 0;
+    }
+    .map1{
+        width: 300px;
+        padding: 0;
+    }
+    .geo{
+        height: 300px;
+    }
+}

@@ -67,16 +67,7 @@ body{
     margin-top: 10px;
     color: lightslategray;
 }
-.section4{
-    width: 150px;
-    margin: 30px 30px 15px 0px;
-    padding: 10px;
-    float: right;
-}
-.icons{
-    width: 40px;
-    padding: 2px;
-}
+
 @media screen and (max-width:768px) {
     .newstitle{
         width: 100%;
@@ -94,6 +85,6 @@ body{
         width: 100%;
     }
     .interview p{
-        width: 320px;
+        width: 100%;
     }
 }

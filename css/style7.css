@@ -26,16 +26,14 @@ body{
     transition: 0.3s;
     font-size: 17px;
 }
-.laliga-page{
+.ucl-page{
     width: 100%;
     max-width: 1370px;
     margin:0 auto;
 }
 .uefa-cl{
     width: 1370px;
-    position: relative;
-    
-    
+    position: relative;   
 }
 .navs{
     width: 100%;
@@ -51,8 +49,8 @@ body{
 }
 .navs a{
     text-decoration: none;
-    padding: 70px;
-    font-size: 20px;
+    padding: 50px;
+    font-size: 17px;
     font-family: 'Pragati Narrow', sans-serif;
     color: #0d2d3f;
 }
@@ -60,3 +58,16 @@ body{
     width: 40px;
     margin-left: 50px;
 }
+.navs ul :hover{
+    font-size: 20px;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+@media screen and (max-width:768px) {
+    .uefa-cl{
+        width: 100%;
+    }
+    .navs ul{
+        width: 100%;
+    }
+    }
