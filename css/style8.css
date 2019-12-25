@@ -32,7 +32,7 @@ body{
     margin:0 auto;
 }
 .draw{
-    width: 1370px;
+    width: 100%;
     position: relative;
 }
 .navs{
@@ -44,7 +44,7 @@ body{
 }
 .navs ul{
     display: flex;
-    width: 1370px;
+    width: 100%;
     
 }
 .navs a{
@@ -135,6 +135,7 @@ body{
 .back-icon{
     width: 40px;
     margin-left: 50px;
+    width: 2%;
 }
 @media screen and (max-width:768px) {
 .draw{
