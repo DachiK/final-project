@@ -83,6 +83,9 @@ body{
     text-decoration: none;
     color: #0d2d3f;
 }
+.col4 :hover{
+    opacity: 0.5;
+}
 
 @media screen and (max-width:768px) {
     .bbva{

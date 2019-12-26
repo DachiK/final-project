@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 body{
     background-color:#e3e5e6;
 }
@@ -61,6 +62,18 @@ body{
 }
 .spain{
     border-bottom: 1px solid #0d2d3f;
+}
+.socialmedia{
+    width: 20%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.address{
+    font-family: 'Anton', sans-serif;
+}
+.icons{
+    width: 15%;
+    padding: 1px;
 }
 @media screen and (max-width:768px){
     .map{

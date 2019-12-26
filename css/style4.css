@@ -78,7 +78,7 @@ body{
     margin-left: 200px;
 }
 .nomination{
-    width: 100%;
+    width: 50%;
     max-width: 1370px;
     margin: 0 auto;
 }
@@ -91,13 +91,13 @@ body{
         width: 100%;
     }
     .navs{
-        width: 768px;
+        width: 100%
     }
     ul{
-        width: 768px;
+        width: 100%
     }
     .nav{
-        width: 768px;
+        width: 100%
     }
     .navs a{
         padding: 10px;
