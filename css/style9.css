@@ -81,10 +81,22 @@ body{
         padding: 0;
     }
     .map1{
-        width: 300px;
+        width: 25%;
         padding: 0;
     }
+    .map2{
+        width: 25%;
+    }
     .geo{
+        height: 300px;
+    }
+    .navigationmap{
+        width: 50%;
+    }
+    .socialmedia{
+        width: 20%;
+    }
+    .spain{
         height: 300px;
     }
 }

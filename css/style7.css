@@ -32,7 +32,7 @@ body{
     margin:0 auto;
 }
 .uefa-cl{
-    width: 1370px;
+    width: 100%;
     position: relative;   
 }
 .navs{
@@ -45,7 +45,7 @@ body{
 .navs ul{
     display: flex;
     width: 1370px;
-    
+    border-bottom: solid 1px #0d2d3f;
 }
 .navs a{
     text-decoration: none;
