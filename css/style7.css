@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=Pragati+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 body{
@@ -13,9 +15,14 @@ body{
     margin:10px;
 }
 .flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-content: center; 
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center; 
 }
 .navbar li {
     margin-right: 15px;
@@ -23,6 +30,8 @@ body{
 }
 .navbar ul :hover{
     opacity: 1.5;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     font-size: 17px;
 }
@@ -43,6 +52,8 @@ body{
     
 }
 .navs ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1370px;
     border-bottom: solid 1px #0d2d3f;
@@ -60,6 +71,8 @@ body{
 }
 .navs ul :hover{
     font-size: 20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     opacity: 0.5;
 }
